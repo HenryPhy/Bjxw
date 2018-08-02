@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewPager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+</android.support.v4.view.ViewPager>
+    <Button
+        android:id="@+id/btn_start_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="开始体验"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/btn_start_main_selector"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:textColor="@drawable/bottom_textcolor_drawavle_selector"
+
+        ></Button>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+
+        >
+        <LinearLayout
+            android:id="@+id/ll_point_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_red_point"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/point_red"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
