@@ -17,6 +17,5 @@ public class DensityUtil {
         return (int)(pxValue/scale+0.5f);
 
 
-
     }
 }
